@@ -1,0 +1,39 @@
+body {
+  background: url(./images/poker.jpg);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.buttonAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+button {
+  width: 200px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  background: #016f32;
+  color: white;
+  text-align: center;
+}
+
+#heading-el {
+  color: goldenrod;
+}
+
+#passage-el,
+#cards-el,
+#sum-el {
+  color: #f5f7f8;
+}
